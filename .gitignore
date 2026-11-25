@@ -1,0 +1,44 @@
+# ---- KiCad: automatic backups & caches ----
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+\#auto_saved_files#
+fp-info-cache
+*.lck
+~*.lck
+
+# ---- KiCad: per-user local settings (window layout, layer visibility) ----
+*.kicad_prl
+
+# ---- KiCad: misc generated files ----
+*.000
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+*.net
+*.dsn
+*.ses
+*.xml
+
+# ---- Fabrication output zips (regenerate from fab/gerbers) ----
+fab/*.zip
+
+# ---- Heart-sound recordings (add your own; usually not redistributable) ----
+software/sounds/*.wav
+software/sounds/*.WAV
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- OS / editor clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

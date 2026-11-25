@@ -1,0 +1,6 @@
+"Refs","Value","Footprint","Qty","Description"
+"J1","RPi_GPIO_40pin","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical","1","Raspberry Pi 40-pin GPIO header (2x20 female socket on the underside of this HAT)"
+"J2","MAX98357A_Breakout","Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical","1","Socket for Adafruit MAX98357A I2S 3W class-D amp breakout (#3006)"
+"J3","EXT_BUTTON","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","1","Optional off-board button wired in parallel with SW1"
+"SW1","NEXT_TRACK","Button_Switch_THT:SW_PUSH_6mm","1","Examiner button: next heart-sound track (GPIO17, internal pull-up)"
+"SW2","SHUTDOWN_WAKE","Button_Switch_THT:SW_PUSH_6mm","1","Safe shutdown / wake (GPIO3, dtoverlay=gpio-shutdown)"

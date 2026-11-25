@@ -1,0 +1,87 @@
+(footprint "Dayton_TT25-8_PUCK_3D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SHK1"
+		(at 0 -47 0)
+		(layer "F.Fab")
+		(uuid "fe5063d4-9371-4142-aa82-b0e12e3240cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Dayton TT25-8 (off-board)"
+		(at 0 47 0)
+		(layer "F.Fab")
+		(uuid "ee58cd9e-bb77-47b9-9dc2-f75fcd8549af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "685e570e-6c07-4c7e-9da4-4254d450183f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24b122f3-2b9d-4489-b197-3c2638a37a50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c595023-7faf-48e7-9930-300310253bdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 44.5 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "eccd2879-a78f-4ab5-a0aa-13aac0d39232")
+	)
+	(model "${KIPRJMOD}/3d/Dayton_TT25-8_PUCK.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

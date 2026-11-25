@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pi_heart_shaker")(type "KiCad")(uri "${KIPRJMOD}/pi_heart_shaker.pretty")(options "")(descr "Project-specific footprints"))
+)
